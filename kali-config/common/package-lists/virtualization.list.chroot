@@ -2,12 +2,14 @@
 ## Install packages required for virtualization support.
 ##
 #if ARCHITECTURES amd64 i386
-hyperv-daemons
-virtualbox-guest-x11
+#PSEUDODRAGON'S MAGIC MAKES BLOAT DISAPPEAR!
+#hyperv-daemons
+#virtualbox-guest-x11
 #endif
 #if ARCHITECTURES amd64 i386 arm64
-open-vm-tools-desktop
+#open-vm-tools-desktop
 #endif
-qemu-guest-agent
-spice-vdagent
+#qemu-guest-agent
+#spice-vdagent
 xrdp
+#PSEUDODRAGON LOVES XRDP :3

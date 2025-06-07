@@ -39,7 +39,7 @@ get_user_list() {
     done
     echo "root"
 }
-
+#PSEUDODRAGON LOVE BASH NOT ZSH.   IT WONDERS IF THIS CODE SHOULD BE REMOVED LATER
 configure_zsh() {
     if grep -q 'nozsh' /proc/cmdline; then
         echo "INFO: user opted out of zsh by default"
