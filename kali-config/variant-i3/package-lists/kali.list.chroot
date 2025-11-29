@@ -14,8 +14,15 @@ kali-desktop-i3
 ##   You can customize the set of Kali metapackages (groups of tools) to install
 ##   For the complete list see: https://www.kali.org/tools/kali-meta/
 kali-linux-default
+kali-tools-gpu
+kali-tools-802-11
+kali-tools-wireless
+kali-tools-sniffing-spoofing
 
 ## Extra Kali packages/tools/applications
 ##   For the complete list see: https://www.kali.org/tools/
 ##                              https://pkg.kali.org/
 #<package>
+git
+bleachbit
+
